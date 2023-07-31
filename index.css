@@ -1,0 +1,128 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 1400px;
+}
+
+.nav h1{
+    color: white;
+}
+
+.nav h1 span{
+    color: blueviolet;
+}
+
+body{
+    width: 78%;
+    height:82%
+}
+
+.nav ul{
+    display: flex;
+}
+
+.nav ul li{
+    list-style: none;
+    color: white;
+    margin-left: 34px;
+    padding-left: 15px;
+    margin-top: 19px;
+}
+
+.nav ul li:hover{
+    color: blueviolet;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btun{
+    color: white;
+    background-color: blueviolet;
+    height: 35px;
+    width: 85px;
+    border-color: blueviolet;
+    outline: none;
+    border-radius: 7px;
+    margin-left: 45px;
+    margin-top: 7px;
+    cursor: pointer;
+
+}
+
+.btun:hover{
+    color: blueviolet;
+    border-color: blueviolet;
+    background-color: transparent;
+    transition: 0.5s;
+}
+
+.lofin{
+    background-color: transparent;
+    width: 350px;
+    height: 450px;
+    margin-top: 8%;
+    margin-left: 47%;
+    border-color: 3px rgb(132, 0, 255);
+    backdrop-filter: blur(15px) ;
+    border-radius: 14px;
+    outline-color: blueviolet;
+    box-shadow: 5px;
+}
+
+.lofin h1{
+    margin-left: 33%;
+    color: white;
+}
+
+.email{
+    border-color: rgb(212, 144, 239);
+    background-color: transparent;
+    height: 40px;
+    width: 300px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    margin-left: 5%;
+    margin-top: 40px;
+}
+
+.email:focus{
+    outline: none;
+    color: white;
+}
+
+.email::placeholder{
+    color: white;
+}
+
+.butn{
+    background-color: blueviolet;
+    height: 50px;
+    width: 300px;
+    border-radius: 59px;
+    color: white;
+    margin-left: 5%;
+    margin-top: 40px;
+    border-color: blueviolet;
+    cursor: pointer;
+}
+
+.lofin h5{
+    color: white;
+    margin-left: 20%;
+}
+
+.lofin h5 span{
+    color: blueviolet;
+    cursor: pointer;
+}
+
+.butn:hover{
+    color: blueviolet;
+    border-color: blueviolet;
+    background-color: transparent;
+    transition: 0.5s;
+}
